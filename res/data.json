@@ -1,0 +1,85 @@
+{
+    "items" : [
+        {
+            "name" : "Get in Touch:",
+            "type" : "info",
+            "htmlcontent" : "<p>contact@sabrinavoth.ca</p><p>reach out to someone <a href='https://www.linkedin.com/in/sabrina-voth-760760112/'>I might know</a><p>check out <a href='https://github.com/sabvoth/'>my sick projects</a></p>",
+            "datestamp" : "January 7th, 2018",
+            "tags" : ["contact me", "information"]
+        },
+
+        {
+            "name" : "My Resume",
+            "type" : "file",
+            "htmlcontent" : "<p>My handsome (general format) resume. Often, I modify or adjust my resume per job; this is the general, incomplete version. Please get in touch to see my latest, and most appropriate version.</p>",
+            "uri" : "res/file/SabrinaVoth_Resume_editedforonline.pdf",
+            "filetype" : "PDF",
+            "author" : "Sabrina Voth",
+            "datestamp" : "January 7th, 2018",
+            "tags" : ["professional", "about me", "information"]
+        },
+        {
+            "name" : "the STAB Project",
+            "type" : "img",
+            "htmlcontent" : "<p>My umbrella label for any punk-type interests I have. STAB itself can stand for a lot, but it started as 'Sabrina the Teenage Again Bitch'; a joke label I used for myself, going through my 'second puberty'.</p><p>However, it inspires me and gives me strength in dealing with a lot of personal struggles. Therefore, the STAB Project exists.",
+            "uri" : "res/img/stab-notepad.JPG",
+            "author" : "Sabrina Voth",
+            "datestamp" : "Dec 15th, 2017",
+            "tags" : ["punk", "STAB", "art", "trans*"]
+        },
+        {
+            "name" : "Programming Samples",
+            "type" : "info",
+            "htmlcontent" : "<p>Besides my projects, any smaller bits of open-source programming I make can be founnd on <a href='https://github.com/sabvoth/'>my github page.</a></p><p>Generally speaking, I program as a means-to-an-end and have made solutions work via:<ul><li>C# windows command line applications setup as scheduled tasks on servers</li><li>HTML and JS libraries wrapped up in an Apache Cordova tortilla to make an android/ios burrito</li><li>Magnificent, accountant ready SQL-query based reports that bordered on 'big data'</li><li>this website</li><ul>",
+            "author" : "Sabrina Voth",
+            "datestamp" : "January 13th, 2017",
+            "tags" : ["professional", "information", "programming"]
+        },
+        {
+            "name" : "General Videos",
+            "type" : "info",
+            "htmlcontent" : "<p>Occasionally, I'll create various videos; usually an elaborate joke, sometimes more, sometimes even less.</p><p> If it's not worth mentioning on this page as a seperate item, you can check them out <a href='https://www.youtube.com/channel/UCDREtMGPcL98mEQpwILBVCw'>on my youtube channel.</a></p>",
+            "author" : "Sabrina Voth",
+            "datestamp" : "January 13th, 2017",
+            "tags" : ["art", "videos", "youtube"]
+        },
+        {
+            "name" : "Intraline - Consent Form App",
+            "type" : "img",
+            "htmlcontent" : "<p>An application I was contracted to produce for Intraline; it features pdf generation, some wonderful simple design, and general helpfulness.</p><p>You can check out <a href='https://github.com/sabvoth/intraline-consent'>the project here</a></p><p>Please note that this project isn't currently completeled.</p>",
+            "uri" : "res/img/intraline-basic.JPG",
+            "author" : "Sabrina Voth",
+            "datestamp" : "Jan 7th, 2017",
+            "tags" : ["cordova", "programming", "android", "ios"]
+        },
+
+
+        {
+            "name" : "Melissa (Atak 10 by Quest)",
+            "type" : "proj",
+            "htmlcontent" : "<p>A recent refugee from local thrift stores. Extremely worn, but she still has a lot to say. A vintage guitar from the 80's, smaller plywood body but with a standard scale and tremolo.</p>",
+            "uri" : "res/img/melissa-angledown-before.JPG",
+            "author" : "Sabrina Voth",
+            "datestamp" : "Jan 7th, 2017",
+            "content":
+                [
+                    {
+                        "name" : "Melissa - the Imp",
+                        "desc" : "Something about the angling of her body give a sense of attitude and impishness.",
+                        "uri" : "res/img/melissa-angledown-before.JPG"
+                    },
+                    {
+                        "name" : "Melissa - orignal decals",
+                        "desc" : "Previous owners had adorned her with their clans markings, but unfortunately they had to be removed.",
+                        "uri" : "res/img/melissa-front-before.JPG"
+                    },
+                    {
+                        "name" : "Melissa - namesake",
+                        "desc" : "An older-seeming sticker introduces Melissa to the world.",
+                        "uri" : "res/img/melissa-back-before.JPG"
+                    }
+                ],
+            "tags" : ["guitar", "stab", "melissa"]
+        }
+    ]
+}

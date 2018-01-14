@@ -1,0 +1,74 @@
+body {
+    font-family:'Work sans', sans-serif;
+}
+
+#sv-title{
+    padding-top:10vh;
+    padding-bottom:5vh;
+    font-size:5em;
+    font-weight:900;
+    letter-spacing: .05em;
+    color: #ff9b9b;
+}
+
+.sv-underline{
+    border-width: 0 0 5px;
+    border-style: solid;
+    border-color: #ff9b9b;
+}
+.sv-filetype {
+    text-align: center;
+    padding: 5rem 0rem;
+    color:white;
+    opacity:1;
+    transition:opacity 1s;
+}
+.sv-filetype a {
+    font-size: 2.5em;
+}
+
+a, a:visited{
+    color:white !important;
+}
+
+.sv-filetype:hover{
+    opacity:.7;
+}
+.sv-filetype a div {
+    font-size:.8rem;
+}
+.sv-nav-activeitem {
+    font-weight:600;
+}
+
+.sv-nav-item:hover{
+    cursor:pointer;
+    opacity:.7;
+}
+
+.sv-bucket-item, .sv-nav-item{
+    animation:fadeIn 3s;
+    transition:opacity 1s;
+}
+
+.sv-bucket-item .card {
+    border: none !important;
+    background-color: #ff9b9b;
+    border-radius:.2rem !important;
+    height: 100%  !important;
+}
+.sv-bucket-item .card-text {
+    line-height: 1.35;
+}
+#sv-bucket-templateitem, #sv-nav-templateitem {
+    display:none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
