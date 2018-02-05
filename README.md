@@ -12,7 +12,8 @@ It's my portfolio site, so boom. No confusion when you visit the page.
 
 # 2) Tag Field
 
-This is a collection of tags, initially *all* the tags for all my "projects". Once a single
+This is a collection of tags, initially *all* the tags for all my "projects"
+(unless the url contains a tags= search query, then filters those tags). Once a single
 tag is clicked, it filters based on that tag. However, the tag field also is filtered
 and populated with all the tags of the projects shown. In this way, you can keep clicking
 tags until you find the minimum amount/most shared connections.
@@ -38,5 +39,5 @@ and slip it into the Project Field IF it doesn't match any filters currently set
 Then, it checks the tags of the project it just displayed,
 and adds any new ones to the Tag Field.
 
-Whenever a tag is clicked, it simple dumps the Project Field and the Tag Field out and regenerates the
+Whenever a tag is clicked, it simply dumps the Project Field and the Tag Field out and regenerates the
 page, re-running the same code but with that tag as a filter. And that's it!
