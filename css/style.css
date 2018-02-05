@@ -37,6 +37,11 @@ a, a:visited{
 .sv-filetype a div {
     font-size:.8rem;
 }
+
+.sv-nav-currentsearch a {
+    color:black !important;
+}
+
 .sv-nav-activeitem {
     font-weight:600;
 }

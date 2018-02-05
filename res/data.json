@@ -5,7 +5,7 @@
             "type" : "info",
             "htmlcontent" : "<p>contact@sabrinavoth.ca</p><p>reach out to someone <a href='https://www.linkedin.com/in/sabrina-voth-760760112/'>I might know</a><p>check out <a href='https://github.com/sabvoth/'>my sick projects</a></p>",
             "datestamp" : "January 7th, 2018",
-            "tags" : ["contact me", "information"]
+            "tags" : ["contact", "information"]
         },
 
         {
@@ -16,7 +16,7 @@
             "filetype" : "PDF",
             "author" : "Sabrina Voth",
             "datestamp" : "January 7th, 2018",
-            "tags" : ["professional", "about me", "information"]
+            "tags" : ["professional", "about", "information"]
         },
         {
             "name" : "the STAB Project",
