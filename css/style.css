@@ -27,19 +27,22 @@ body {
     font-size: 2.5em;
 }
 
-a, a:visited{
+a, a:visited, .text-muted {
     color:white !important;
 }
-
+.text-muted {
+    opacity:.7;
+}
 .sv-filetype:hover{
     opacity:.7;
 }
+
 .sv-filetype a div {
     font-size:.8rem;
 }
 
 .sv-nav-currentsearch a {
-    color:black !important;
+    color:#ff9b9b !important;
 }
 
 .sv-nav-activeitem {
@@ -51,7 +54,7 @@ a, a:visited{
     opacity:.7;
 }
 
-.sv-bucket-item, .sv-nav-item{
+.sv-bucket-item, .sv-nav-item, .sv-nav-currentsearch{
     animation:fadeIn 3s;
     transition:opacity 1s;
 }

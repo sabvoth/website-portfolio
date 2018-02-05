@@ -65,6 +65,13 @@ function displayPortfolio(tags, portfolioData){
                     item.addClass("col-lg-4");
                     item.find(".carousel-inner").append("<div class='carousel-item active'><img class='d-block w-100' src='" + portfolioData.items[x].uri +"' alt='" + portfolioData.items[x].name  + "'></div>");
                     break;
+                case "soundcloud":
+                    item.addClass("col-lg-4");
+                    for(var y in portfolioData.items[x].content){
+                        item.find(".carousel-inner").append("<div class='carousel-item'>" + portfolioData.items[x].content[y].iframe + "</div>");
+                    }
+                    item.find(".carousel-inner .carousel-item:first-child").addClass("active");
+                    break;
                 case "file":
                     item.addClass("col-lg-4");
                     item.find(".carousel-inner").append("<div class='carousel-item active'><div class='sv-filetype'><a  target='_blank' href='" + portfolioData.items[x].uri + "'>"+ portfolioData.items[x].filetype + "<div>click to download</div></a></div></div>");
@@ -114,7 +121,7 @@ function displayPortfolio(tags, portfolioData){
         }
     }
     //as a last item, attach a link in the tagfield
-    $("#sv-nav").append("<div class='sv-nav-currentsearch col-sm-2'><a href='http://" + location.hostname + "/website-portfolio/index.html?tags=" + tags.toString() + "'>link to current view</a></div>")
+    $("#sv-nav").append("<div class='sv-nav-currentsearch col-sm-2'><a href='http://" + location.hostname + "/website-portfolio/index.html?tags=" + tags.toString() + "'>current tags</a></div>")
 
 }
 
