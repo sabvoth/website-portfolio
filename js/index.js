@@ -4,8 +4,8 @@
 
 
 $(document).ready(function(){
-    initPage();
 
+    initPage();
     $("#sv-nav").on("click", ".sv-nav-item", navToggle);
 
 });
@@ -13,12 +13,22 @@ $(document).ready(function(){
 
 //Presents portfolio data on init
 function initPage(){
-    startPorfolioDisplay([]);
+    args = [];
+    if(location.search.length > 0){
+        args = location.search.split("&");
+        args[0] = args[0].replace("?", ""); // this is silly
+        args = args.filter(function(argString){
+            return (argString.includes("tags=") && argString.length > 5)
+        });
+    }
+
+    if(args.length > 0) startPorfolioDisplay(args[0].split("=")[1].split(","));
+    else startPorfolioDisplay([]);
 }
 
 function startPorfolioDisplay(tags){
     $("#sv-bucket .sv-bucket-item:not(#sv-bucket-templateitem)").remove();
-    $("#sv-nav .sv-nav-item:not(#sv-nav-templateitem)").remove();
+    $("#sv-nav :not(#sv-nav-templateitem)").remove();
 
     getLocalData(function(data){
         displayPortfolio(tags, data);
@@ -28,8 +38,8 @@ function startPorfolioDisplay(tags){
 // Gets and displays portfolio based on tags
 // tags is expected to be a string array
 function displayPortfolio(tags, portfolioData){
-    console.log(portfolioData);
 
+    validateTags(tags);
     for(var x in portfolioData.items){
         var showItem = false;
 
@@ -45,22 +55,22 @@ function displayPortfolio(tags, portfolioData){
             switch(portfolioData.items[x].type){
 
                 case "text" :
-                    item.addClass("col-md-3");
+                    item.addClass("col-lg-3");
                     item.find(".card-title").after("<h6 class='card-subtitle mb-3'>by " + portfolioData.items[x].author + "</h6>");
                     break;
                 case "info":
-                    item.addClass("col-md-4");
+                    item.addClass("col-lg-4");
                     break;
                 case "img":
-                    item.addClass("col-md-4");
+                    item.addClass("col-lg-4");
                     item.find(".carousel-inner").append("<div class='carousel-item active'><img class='d-block w-100' src='" + portfolioData.items[x].uri +"' alt='" + portfolioData.items[x].name  + "'></div>");
                     break;
                 case "file":
-                    item.addClass("col-md-4");
+                    item.addClass("col-lg-4");
                     item.find(".carousel-inner").append("<div class='carousel-item active'><div class='sv-filetype'><a  target='_blank' href='" + portfolioData.items[x].uri + "'>"+ portfolioData.items[x].filetype + "<div>click to download</div></a></div></div>");
                     break;
                 case "proj":
-                    item.addClass("col-md-6");
+                    item.addClass("col-lg-6");
                     item.find(".carousel-inner").append("<div class='carousel-item active'><img class='d-block w-100' src='" + portfolioData.items[x].uri +"' alt='" + portfolioData.items[x].name  + "'></div>");
                     for(var y in portfolioData.items[x].content){
                         //This does make me very sad.
@@ -101,9 +111,11 @@ function displayPortfolio(tags, portfolioData){
                     }
                 }
             }
-
         }
     }
+    //as a last item, attach a link in the tagfield
+    $("#sv-nav").append("<div class='sv-nav-currentsearch col-sm-2'><a href='http://" + location.hostname + "/website-portfolio/index.html?tags=" + tags.toString() + "'>link to current view</a></div>")
+
 }
 
 // Takes two tag arrays and returns true if the target contains any of the src tags
@@ -144,4 +156,12 @@ function getLocalData(callback){
     $.ajaxSetup({ async: true});
 
     callback(returnData);
+}
+
+function validateTags(tags){
+    var resTags = [];
+    for(var x in tags){
+        if(tags[x].length > 2) resTags.push(tags[x]);
+    }
+    return resTags.toString();
 }
