@@ -3,29 +3,29 @@
         {
             "name" : "Get in Touch:",
             "type" : "info",
-            "htmlcontent" : "<p>contact@sabrinavoth.ca</p><p>reach out to someone <a href='https://www.linkedin.com/in/sabrina-voth-760760112/'>I might know</a><p>check out <a href='https://github.com/sabvoth/'>my sick projects</a></p>",
+            "htmlcontent" : "<p>contact@sabrinavoth.ca</p><p>reach out to someone <a href='https://www.linkedin.com/in/sabrina-voth-760760112/'>I might know</a><p>check out <a href='https://github.com/sabvoth/'>my sick projects</a></p><p>listen to <a href='https://soundcloud.com/thestabproject'>my jams*</a></p><p><small class='text-muted'>*songs are not guaranteed to be jams</small></p>",
             "datestamp" : "January 7th, 2018",
-            "tags" : ["contact", "information"]
+            "tags" : ["contact", "about", "professional"]
         },
 
         {
             "name" : "My Resume",
             "type" : "file",
-            "htmlcontent" : "<p>My handsome (general format) resume. Often, I modify or adjust my resume per job; this is the general, incomplete version. Please get in touch to see my latest, and most appropriate version.</p>",
+            "htmlcontent" : "<p>My handsome (general format) resume. Often, I modify or adjust my resume per job; this is the general, incomplete version. Please get in touch to see my latest (and most appropriate) version.</p>",
             "uri" : "res/file/SabrinaVoth_Resume_editedforonline.pdf",
             "filetype" : "PDF",
             "author" : "Sabrina Voth",
             "datestamp" : "January 7th, 2018",
-            "tags" : ["professional", "about", "information"]
+            "tags" : ["about", "professional", "files"]
         },
         {
             "name" : "the STAB Project",
             "type" : "img",
-            "htmlcontent" : "<p>My umbrella label for any punk-type interests I have. STAB itself can stand for a lot, but it started as 'Sabrina the Teenage Again Bitch'; a joke label I used for myself, going through my 'second puberty'.</p><p>However, it inspires me and gives me strength in dealing with a lot of personal struggles. Therefore, the STAB Project exists.",
+            "htmlcontent" : "<p>My umbrella label for any punk-type interests I have. STAB itself can stand for a lot, but it started as 'Sabrina the Teenage Again Bitch'; a joke label I used for myself, going through my 'second puberty'.</p><p>However, it inspires me and gives me strength in dealing with a lot of personal struggles. Therefore, the STAB Project exists.</p>",
             "uri" : "res/img/stab-notepad.JPG",
             "author" : "Sabrina Voth",
             "datestamp" : "Dec 15th, 2017",
-            "tags" : ["punk", "STAB", "art", "trans*"]
+            "tags" : ["stab", "trans*", "music", "art"]
         },
         {
             "name" : "Programming Samples",
@@ -33,7 +33,7 @@
             "htmlcontent" : "<p>Besides my projects, any smaller bits of open-source programming I make can be founnd on <a href='https://github.com/sabvoth/'>my github page.</a></p><p>Generally speaking, I program as a means-to-an-end and have made solutions work via:<ul><li>C# windows command line applications setup as scheduled tasks on servers</li><li>HTML and JS libraries wrapped up in an Apache Cordova tortilla to make an android/ios burrito</li><li>Magnificent, accountant ready SQL-query based reports that bordered on 'big data'</li><li>this website</li><ul>",
             "author" : "Sabrina Voth",
             "datestamp" : "January 13th, 2017",
-            "tags" : ["professional", "information", "programming"]
+            "tags" : ["professional", "programming"]
         },
         {
             "name" : "General Videos",
@@ -41,7 +41,7 @@
             "htmlcontent" : "<p>Occasionally, I'll create various videos; usually an elaborate joke, sometimes more, sometimes even less.</p><p> If it's not worth mentioning on this page as a seperate item, you can check them out <a href='https://www.youtube.com/channel/UCDREtMGPcL98mEQpwILBVCw'>on my youtube channel.</a></p>",
             "author" : "Sabrina Voth",
             "datestamp" : "January 13th, 2017",
-            "tags" : ["art", "videos", "youtube"]
+            "tags" : ["art", "videos"]
         },
         {
             "name" : "Intraline - Consent Form App",
@@ -50,7 +50,7 @@
             "uri" : "res/img/intraline-basic.JPG",
             "author" : "Sabrina Voth",
             "datestamp" : "Jan 7th, 2017",
-            "tags" : ["cordova", "programming", "android", "ios"]
+            "tags" : ["professional", "programming", "apps"]
         },
 
 
@@ -79,7 +79,24 @@
                         "uri" : "res/img/melissa-back-before.JPG"
                     }
                 ],
-            "tags" : ["guitar", "stab", "melissa"]
+            "tags" : ["music", "stab"]
+        },
+        {
+            "name" : "SoundCloud Excerpts",
+            "type" : "soundcloud",
+            "htmlcontent" : "<p>A collection of excerpts from jam sessions. These aren't finished songs, just ideas that sound cool (especially on a dreary Monday morning).</p>",
+            "author" : "Sabrina Voth",
+            "datestamp" : "February 5th, 2017",
+            "content":
+                [
+                    {
+                        "name" : "2-A",
+                        "datestamp" : "February 2nd, 2018",
+                        "desc" : "An excerpt from a jam sandwich I made Monday morning.",
+                        "iframe" : "<iframe width='100% height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/395025111&amp;color=%23534a50&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true'></iframe>"
+                    }
+                ],
+            "tags" : ["music", "loud"]
         }
     ]
 }
