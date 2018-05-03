@@ -58,6 +58,14 @@ function displayPortfolio(tags, portfolioData){
                     item.addClass("col-lg-3");
                     item.find(".card-title").after("<h6 class='card-subtitle mb-3'>by " + portfolioData.items[x].author + "</h6>");
                     break;
+                case "gphoto-album":
+                    item.addClass("col-lg-3");
+                    item.find(".carousel-inner").append("<div class='carousel-item active'><div class='sv-filetype'><a  target='_blank' href='" + portfolioData.items[x].uri + "'>ALBUM<div>click to visit.</div></a></div></div>");
+                    break;
+                case "instagram" :
+                    item.addClass("col-lg-4");
+                    item.find(".card-title").remove();
+                    break;
                 case "info":
                     item.addClass("col-lg-4");
                     break;

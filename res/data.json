@@ -3,9 +3,9 @@
         {
             "name" : "Get in Touch:",
             "type" : "info",
-            "htmlcontent" : "<p>contact@sabrinavoth.ca</p><p>reach out to someone <a href='https://www.linkedin.com/in/sabrina-voth-760760112/'>I might know</a><p>check out <a href='https://github.com/sabvoth/'>my sick projects</a></p><p>listen to <a href='https://soundcloud.com/thestabproject'>my jams*</a></p><p><small class='text-muted'>*songs are not guaranteed to be jams</small></p>",
+            "htmlcontent" : "<p>contact@sabrinavoth.ca</p><p>reach out to someone <a href='https://www.linkedin.com/in/sabrina-voth-760760112/'>I might know</a><p>check out <a href='https://github.com/sabvoth/'>my sick projects</a></p><p>listen to <a href='https://soundcloud.com/thestabproject'>my jams*</a></p><p><small class='text-muted'>*songs are not guaranteed to be jams</small></p><p>see my art on <a href='https://www.instagram.com/sab.voth/'>instagram</a></p>",
             "datestamp" : "January 7th, 2018",
-            "tags" : ["contact", "about", "professional"]
+            "tags" : ["contact", "about"]
         },
 
         {
@@ -16,75 +16,20 @@
             "filetype" : "PDF",
             "author" : "Sabrina Voth",
             "datestamp" : "January 7th, 2018",
-            "tags" : ["about", "professional", "files"]
-        },
-        {
-            "name" : "the STAB Project",
-            "type" : "img",
-            "htmlcontent" : "<p>My umbrella label for any punk-type interests I have. STAB itself can stand for a lot, but it started as 'Sabrina the Teenage Again Bitch'; a joke label I used for myself, going through my 'second puberty'.</p><p>However, it inspires me and gives me strength in dealing with a lot of personal struggles. Therefore, the STAB Project exists.</p>",
-            "uri" : "res/img/stab-notepad.JPG",
-            "author" : "Sabrina Voth",
-            "datestamp" : "Dec 15th, 2017",
-            "tags" : ["stab", "trans*", "music", "art"]
+            "tags" : ["about", "professional"]
         },
         {
             "name" : "Programming Samples",
             "type" : "info",
             "htmlcontent" : "<p>Besides my projects, any smaller bits of open-source programming I make can be founnd on <a href='https://github.com/sabvoth/'>my github page.</a></p><p>Generally speaking, I program as a means-to-an-end and have made solutions work via:<ul><li>C# windows command line applications setup as scheduled tasks on servers</li><li>HTML and JS libraries wrapped up in an Apache Cordova tortilla to make an android/ios burrito</li><li>Magnificent, accountant ready SQL-query based reports that bordered on 'big data'</li><li>this website</li><ul>",
             "author" : "Sabrina Voth",
-            "datestamp" : "January 13th, 2017",
-            "tags" : ["professional", "programming"]
-        },
-        {
-            "name" : "General Videos",
-            "type" : "info",
-            "htmlcontent" : "<p>Occasionally, I'll create various videos; usually an elaborate joke, sometimes more, sometimes even less.</p><p> If it's not worth mentioning on this page as a seperate item, you can check them out <a href='https://www.youtube.com/channel/UCDREtMGPcL98mEQpwILBVCw'>on my youtube channel.</a></p>",
-            "author" : "Sabrina Voth",
-            "datestamp" : "January 13th, 2017",
-            "tags" : ["art", "videos"]
-        },
-        {
-            "name" : "Intraline - Consent Form App",
-            "type" : "img",
-            "htmlcontent" : "<p>An application I was contracted to produce for Intraline; it features pdf generation, some wonderful simple design, and general helpfulness.</p><p>You can check out <a href='https://github.com/sabvoth/intraline-consent'>the project here</a></p><p>Please note that this project isn't currently completeled.</p>",
-            "uri" : "res/img/intraline-basic.JPG",
-            "author" : "Sabrina Voth",
-            "datestamp" : "Jan 7th, 2017",
-            "tags" : ["professional", "programming", "apps"]
-        },
-
-
-        {
-            "name" : "Melissa (Atak 10 by Quest)",
-            "type" : "proj",
-            "htmlcontent" : "<p>A recent refugee from local thrift stores. Extremely worn, but she still has a lot to say. A vintage guitar from the 80's, smaller plywood body but with a standard scale and tremolo.</p>",
-            "uri" : "res/img/melissa-angledown-before.JPG",
-            "author" : "Sabrina Voth",
-            "datestamp" : "Jan 7th, 2017",
-            "content":
-                [
-                    {
-                        "name" : "Melissa - the Imp",
-                        "desc" : "Something about the angling of her body give a sense of attitude and impishness.",
-                        "uri" : "res/img/melissa-angledown-before.JPG"
-                    },
-                    {
-                        "name" : "Melissa - orignal decals",
-                        "desc" : "Previous owners had adorned her with their clans markings, but unfortunately they had to be removed.",
-                        "uri" : "res/img/melissa-front-before.JPG"
-                    },
-                    {
-                        "name" : "Melissa - namesake",
-                        "desc" : "An older-seeming sticker introduces Melissa to the world.",
-                        "uri" : "res/img/melissa-back-before.JPG"
-                    }
-                ],
-            "tags" : ["music", "stab"]
+            "datestamp" : "January 13th, 2018",
+            "tags" : ["professional", "examples", "programming"]
         },
         {
             "name" : "SoundCloud Excerpts",
             "type" : "soundcloud",
-            "htmlcontent" : "<p>A collection of excerpts from jam sessions. These aren't finished songs, just ideas that sound cool (especially on a dreary Monday morning).</p>",
+            "htmlcontent" : "<p>SoundCloud serves as a repository for any and all of my musical experiments and explorations. This includes fun things like funky toy synths to acoustic guitar pickings to endless bass rumbles. Just rumbles.</p>",
             "author" : "Sabrina Voth",
             "datestamp" : "February 5th, 2017",
             "content":
@@ -94,9 +39,56 @@
                         "datestamp" : "February 2nd, 2018",
                         "desc" : "An excerpt from a jam sandwich I made Monday morning.",
                         "iframe" : "<iframe width='100% height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/395025111&amp;color=%23534a50&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true'></iframe>"
+                    },
+                    {
+                        "name" : "2-A",
+                        "datestamp" : "April 28thd, 2018",
+                        "desc" : "A haunting song fitting gameboy games past.",
+                        "iframe" : "<iframe width='100% height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438947958&color=%23534a50&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'></iframe>"
                     }
                 ],
-            "tags" : ["music", "loud"]
+            "tags" : ["soundcloud", "examples"]
+        },
+
+        {
+            "name" : "Cuddlefish",
+            "type" : "instagram",
+            "htmlcontent" : "<blockquote class='instagram-media' data-instgrm-captioned data-instgrm-permalink='https://www.instagram.com/p/BiStFoBH2Gw/' data-instgrm-version='8' style=' background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'><div style='padding:8px;'> <div style=' background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;'> <div style=' background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;'></div></div> <p style=' margin:8px 0 0 0; padding:0 4px;'> <a href='https://www.instagram.com/p/BiStFoBH2Gw/' style=' color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;' target='_blank'>Cuddlefish is actually an octopus. 🐙</a></p> <p style=' color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;'>A post shared by <a href='https://www.instagram.com/sab.voth/' style=' color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;' target='_blank'> Sabrina Voth</a> (@sab.voth) on <time style=' font-family:Arial,sans-serif; font-size:14px; line-height:17px;' datetime='2018-05-02T22:43:58+00:00'>May 2, 2018 at 3:43pm PDT</time></p></div></blockquote> <script async defer src='//www.instagram.com/embed.js'></script>",
+            "author" : "Sabrina Voth",
+            "uri" : "https://photos.app.goo.gl/QD895ZV2lqtBBVYT2",
+            "datestamp" : "May 2nd, 2018",
+            "tags" : ["instagram", "collage", "art", "examples"]
+        },
+        {
+            "name" : "Soft Lens Photography",
+            "type" : "gphoto-album",
+            "htmlcontent" : "<p>A narrative photo-album spanning many years of Kelowna summers and a range of my personal photography beliefs, centered around a thrifted lens.</p>",
+            "author" : "Sabrina Voth",
+            "uri" : "https://photos.app.goo.gl/QD895ZV2lqtBBVYT2",
+            "datestamp" : "February 16th, 2018",
+            "tags" : ["photography", "examples", "art", "narrative"]
+        },
+        {
+            "name" : "Sabrina's Animal Collection",
+            "type" : "gphoto-album",
+            "htmlcontent" : "<p>A narrative photo-album featuring my collection of photographed animals.</p>",
+            "author" : "Sabrina Voth",
+            "uri" : "https://photos.app.goo.gl/QD895ZV2lqtBBVYT2",
+            "datestamp" : "February 30th, 2018",
+            "tags" : ["photography", "narrative", "examples", "art"]
+        },
+
+        {
+            "name" : "The No-Chill Box",
+            "type" : "instagram",
+            "htmlcontent" : "<blockquote class='instagram-media' data-instgrm-captioned data-instgrm-permalink='https://www.instagram.com/p/BiF30lwnVcM/' data-instgrm-version='8' style=' background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'><div style='padding:8px;'> <div style=' background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;'> <div style=' background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;'></div></div> <p style=' margin:8px 0 0 0; padding:0 4px;'> <a href='https://www.instagram.com/p/BiF30lwnVcM/' style=' color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;' target='_blank'>Introducing the No-Chill Box; complete with broken glass/frame like your broken family.</a></p> <p style=' color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;'>A post shared by <a href='https://www.instagram.com/sab.voth/' style=' color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;' target='_blank'> Sabrina Voth</a> (@sab.voth) on <time style=' font-family:Arial,sans-serif; font-size:14px; line-height:17px;' datetime='2018-04-27T23:07:38+00:00'>Apr 27, 2018 at 4:07pm PDT</time></p></div></blockquote> <script async defer src='//www.instagram.com/embed.js'></script>",
+            "author" : "Sabrina Voth",
+            "uri" : "https://photos.app.goo.gl/QD895ZV2lqtBBVYT2",
+            "datestamp" : "April 28th, 2018",
+            "tags" : ["instagram", "collage", "art", "examples"]
         }
+
+
+
     ]
 }
